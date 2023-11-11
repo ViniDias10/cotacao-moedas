@@ -1,0 +1,61 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-image: url(./img/Imagem.png);
+  background-size: cover; 
+  margin: 0; 
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.currency-rate {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 25px;
+   
+}
+
+
+media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .currency-rate {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .currency-rate {
+    width: 50%; 
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+  .currency-rate{
+    width: 95%;
+}
+
+}
